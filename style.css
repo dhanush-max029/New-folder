@@ -1,0 +1,43 @@
+.piano-container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+.piano {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.white-key {
+	width: 40px;
+	height: 200px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.black-key {
+	width: 20px;
+	height: 120px;
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	margin: 2px;
+	margin-left: -10px;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.white-key:hover {
+	background-color: #CCCCCC;
+}
+
+.black-key:hover {
+	background-color: #444444;
+}
